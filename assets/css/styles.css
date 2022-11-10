@@ -1,0 +1,460 @@
+.photo-gallery,
+.projects-clean {
+  color: #313437;
+  background-color: #fff
+}
+
+.photo-gallery p,
+.projects-clean p {
+  color: #7d8285
+}
+
+.photo-gallery h2,
+.projects-clean h2 {
+  font-weight: 700;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit
+}
+
+.photo-gallery .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 40px
+}
+
+.photo-gallery .intro p,
+.projects-clean .intro p {
+  margin-bottom: 0
+}
+
+.photo-gallery .photos {
+  padding-bottom: 20px
+}
+
+.photo-gallery .item {
+  padding-bottom: 30px
+}
+
+.navigation-clean {
+  background: #fff;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #333;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0
+}
+
+.navigation-clean .navbar-brand {
+  font-weight: 700;
+  color: inherit
+}
+
+.navigation-clean .navbar-brand:hover {
+  color: #222
+}
+
+.navigation-clean.navbar-dark .navbar-brand:hover {
+  color: #f0f0f0
+}
+
+.navigation-clean .navbar-brand img {
+  height: 100%;
+  display: inline-block;
+  margin-right: 10px;
+  width: auto
+}
+
+.navigation-clean .navbar-toggler {
+  border-color: #ddd;
+  color: #888
+}
+
+.navigation-clean .navbar-toggler:focus,
+.navigation-clean .navbar-toggler:hover {
+  background: 0 0
+}
+
+.navigation-clean.navbar-dark .navbar-toggler {
+  border-color: #555;
+  color: #eee
+}
+
+.navigation-clean .form-inline,
+.navigation-clean .navbar-collapse {
+  border-top-color: #ddd
+}
+
+.navigation-clean.navbar-dark .form-inline,
+.navigation-clean.navbar-dark .navbar-collapse {
+  border-top-color: #333
+}
+
+.navigation-clean .navbar-nav>.active>a,
+.navigation-clean .navbar-nav>.show>a {
+  background: 0 0;
+  box-shadow: none
+}
+
+.navigation-clean.navbar-dark .navbar-nav a.active,
+.navigation-clean.navbar-dark .navbar-nav a.active:focus,
+.navigation-clean.navbar-dark .navbar-nav a.active:hover,
+.navigation-clean.navbar-light .navbar-nav .nav-link.active,
+.navigation-clean.navbar-light .navbar-nav .nav-link.active:focus,
+.navigation-clean.navbar-light .navbar-nav .nav-link.active:hover {
+  color: #8f8f8f;
+  box-shadow: none;
+  background: 0 0;
+  pointer-events: none
+}
+
+.navigation-clean.navbar .navbar-nav .nav-link {
+  padding-left: 18px;
+  padding-right: 18px
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link {
+  color: #465765
+}
+
+.navigation-clean.navbar-light .navbar-nav .nav-link:focus,
+.navigation-clean.navbar-light .navbar-nav .nav-link:hover {
+  color: #37434d !important;
+  background-color: transparent
+}
+
+.navigation-clean .navbar-nav>li>.dropdown-menu {
+  margin-top: -5px;
+  box-shadow: none;
+  background-color: #fff;
+  border-radius: 2px
+}
+
+@media (min-width:768px) {
+  .navigation-clean {
+    padding-top: 1rem;
+    padding-bottom: 1rem
+  }
+
+  .navigation-clean .navbar-nav .show .dropdown-menu {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1)
+  }
+}
+
+.navigation-clean .dropdown-menu .dropdown-item,
+.navigation-clean .dropdown-menu .dropdown-item:focus {
+  line-height: 2;
+  color: #37434d
+}
+
+.navigation-clean .dropdown-menu .dropdown-item:focus,
+.navigation-clean .dropdown-menu .dropdown-item:hover {
+  background: #eee;
+  color: inherit
+}
+
+.navigation-clean.navbar-dark {
+  background-color: #1f2021;
+  color: #fff
+}
+
+.navigation-clean.navbar-dark .navbar-nav .nav-link {
+  color: #dfe8ee
+}
+
+.navigation-clean.navbar-dark .navbar-nav .nav-link:focus,
+.navigation-clean.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+  background-color: transparent
+}
+
+.navigation-clean.navbar-dark .navbar-nav>li>.dropdown-menu {
+  background-color: #1f2021
+}
+
+.navigation-clean.navbar-dark .dropdown-menu .dropdown-item,
+.navigation-clean.navbar-dark .dropdown-menu .dropdown-item:focus {
+  color: #f2f5f8
+}
+
+.navigation-clean.navbar-dark .dropdown-menu .dropdown-item:focus,
+.navigation-clean.navbar-dark .dropdown-menu .dropdown-item:hover {
+  background: #363739
+}
+
+@media (max-width:767px) {
+
+  .photo-gallery h2,
+  .projects-clean h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px
+  }
+
+  .navigation-clean .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #37434d;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    line-height: 1
+  }
+
+  .navigation-clean.navbar-dark .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #fff
+  }
+}
+
+.projects-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto
+}
+
+.projects-clean .projects {
+  padding-bottom: 40px
+}
+
+.projects-clean .item {
+  text-align: center;
+  padding-top: 50px;
+  min-height: 425px
+}
+
+.projects-clean .item .name {
+  font-weight: 700;
+  margin-top: 28px;
+  margin-bottom: 8px;
+  color: inherit
+}
+
+.projects-clean .item .description {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 0
+}
+.barra__progreso__{
+  position:fixed;
+  z-index:100;
+  width:100%;
+  height: 0.75vh;
+  
+}
+#progreso__{
+  width:0%;
+  height: 100%;
+  background:linear-gradient(to left,cyan,blue,rgb(40,0,155));
+}
+
+.contenedor-hero-head{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  height:100vh;
+  background:radial-gradient(blue,black);
+  color:cyan;
+  font-family: sans-serif;
+  font-size:250px;
+  text-decoration: none;
+  text-shadow: 3px 3px 2px darkblue,3px -3px 2px darkblue,-3px -3px 2px darkblue,-3px 3px 2px darkblue;
+  animation:hero_head 2.5s ease-in-out infinite alternate;
+}
+
+@keyframes hero_head{
+  50%{color:transparent; text-shadow:-27px 27px 0px cyan,
+    27px -27px 0px cyan,
+    -27px -27px 0px cyan,
+    27px 27px 0px cyan,
+    -27px 27px 1px rgba(255,255,255,0.75),
+    27px -27px 1px rgba(255,255,255,0.75),
+    -27px -27px 1px rgba(255,255,255,0.75),
+    27px 27px 1px rgba(255,255,255,0.75)}
+    100%{color:cyan; text-shadow: -27px 27px 0px transparent,
+      27px -27px 0px transparent,
+      -27px -27px 0px transparent,
+      27px 27px 0px transparent;}
+    }
+
+
+/* Inicia: Estilos para las tarjetas que se voltean*/
+.flip-card {
+  background-color: transparent;
+  width: 160px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: all 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0px 3px 8px gray;
+}
+
+.flip-card:hover .flip-card-inner {
+  box-shadow: 0px 3px 8px black;
+  scale:1.1;
+/* OPCIONAL para animar borde
+animation: animarbor 1s linear infinite;*/
+}
+
+/* ANIMACION OPCIONAL PARA BORDE
+@keyframes animarbor {
+  0%{border:2px black solid ;border-top:2px darkorchid solid;}
+  25%{border:2px black solid ;border-top:2px darkorchid solid;border-right:2px darkorchid solid;}
+  50%{border:2px black solid ;border-right:2px darkorchid solid;border-bottom:2px darkorchid solid;}
+  75%{border:2px black solid ;border-bottom:2px darkorchid solid;border-left:2px darkorchid solid}
+  100%{border:2px black solid ;border-left:2px darkorchid solid;border-top:2px darkorchid solid;}
+}*/
+
+.flip-card-front,
+.flip-card-back {
+  padding: 5px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flip-card-front {
+  background: white;
+  color: black;
+  align-self: center;
+  transition: all 0.3s linear 0s;
+}
+
+.flip-card-back {
+  /*background: linear-gradient(-135deg, rgb(41, 128, 185), rgb(0, 43, 185));*/
+  color: white;
+  transform: rotateY(180deg);
+}
+@font-face {
+  font-family: "robotaur";
+  src: url("../fonts/SPINC___.TTF")
+}
+span.flip-card-header {
+  width: 100%;
+  padding-bottom: 3px;
+  top: 0;
+  position: absolute;
+  align-self: center;
+  font-family: 'robotaur';
+  font-size: 1em;
+  color: white;
+  border-radius: 0 0 50px 50px;
+  border-bottom:1px solid white;
+}
+
+
+.boton-gir {
+  background: rgb(10, 10, 10);
+  font-size: 12px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0px;
+  right: 0px;
+  width: 25px;
+  height: 25px;
+  border-top: 1px white dashed;
+  border-left: 1px white dashed;
+  border-radius: 25px 0px 0px 0px;
+  transition: all 0.6s;
+}
+
+.boton-gir:hover {
+  background: black;
+  border-radius: 0px;
+  border-top: 1px white solid;
+  border-left: 1px white solid;
+}
+
+/* Termina: Estilos para las tarjetas que se voltean*/
+
+/* Inicia: Efecto Escritura (Maquina Escribir) */
+
+.efecto-escribir {
+  font-size: xx-large;
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  /* los espacios en blanco no rompen la línea */
+  width: 20ch;
+  /* el ancho será el número de caracteres que tiene nuestra línea */
+  animation: escribiendo 2s steps(20);
+  overflow: hidden;
+}
+
+.cursor {
+  animation: 0.6s parpadeo-cursor infinite;
+}
+
+@keyframes escribiendo {
+  from {
+    width: 0;
+  }
+}
+
+/* Termina: Efecto Escritura (Maquina Escribir) */
+
+/* Inicia: Efecto para borde Revelado */
+.hvr-reveal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: double 0 #2320d1;
+  border-radius: 0px;
+  -webkit-transition: border-width 0.1s linear, border-radius 0.1s linear 0.25s;
+  transition: border-width 0.1s linear, border-radius 0.5s linear 0.25s;
+}
+
+.hvr-reveal:hover:before,
+.hvr-reveal:focus:before,
+.hvr-reveal:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  border-width: 4px;
+  border-radius: 15px;
+}
+
+/* Termina: Efecto para borde Revelado */
+
+/* Opcional para animar una barra sobre la tarjeta */
+/*    
+.tarjeta-cont::before{
+    content: "";
+height: 5px;
+width:0;
+display:block;
+background:blue;
+transition: all 0.5s linear;
+}
+.tarjeta-cont:hover::before{
+    width:100%;
+}
+        
+.tarjeta-cont{
+            color:cyan;
+            text-align: center;
+            display: block;
+            opacity:0.5;
+            transition: all 0.1s linear 0s;
+            }
+.tarjeta-cont:hover {
+            opacity: 1;
+        }
+  */

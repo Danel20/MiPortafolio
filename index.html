@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>MiPortafolio</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+<span class="barra__progreso__"><div id="progreso__"></div></span>
+    <div class="contenedor-hero-head">^</div>
+    <!-- Start: Navigation Clean -->
+    <nav style="position: sticky;top:0;z-index:2;"class="navbar navbar-light navbar-expand-md navigation-clean">
+        <div class="container"><a class="navbar-brand" href="#">Company Name</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">First Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Second Item</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Third Item</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown </a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    </li>
+                </ul></div>
+        </div>
+    </nav>
+    <!-- End: Navigation Clean -->
+
+    <!-- Start: Hero Presentation-->
+    <div data-bs-parallax-bg="true" class="container-fluid" style="background: linear-gradient(23deg, rgba(40,0,90,0.5) 0%, rgba(0,0,200,0.5) 50%, rgba(0,200,255,0.5) 100%),url(&quot;assets/img/Wallpapers1.jpg&quot;), transparent;background-size: cover;">
+        <div class="row">
+            <div class="text-center align-self-center col-sm-7" style="color: rgb(255,255,255);"><h3 style="font-family: Alata, sans-serif;">¡Hola!<br></h3><h1 style="font-family: Alata, sans-serif;"><strong>• Soy Danny •</strong></h1><h5 style="font-family: Alata, sans-serif;">Informático y Desarrollador Web<br><br></h5></div>
+            <div class="text-center col-sm-5"><img data-aos="fade-left" class="img-fluid" style="filter: drop-shadow(8px 10px 8px rgb(0,0,0));width: 300px;" src="assets/img/Yo1.png"></div></div></div>
+<!-- End: Hero Presentation-->
+
+<!--Start: Flip Cards-->
+<div class="d-flex flex-row justify-content-around flex-wrap">
+<script>
+var cont_cards = [
+    {"title":"Personalmente...","sub-title":"Me gusta mucho la informática. A mis 7 a&ntilde;os de edad comenc&eacute; a utilizar las computadoras de mi padre. Jugaba, le&iacute;a, exploraba las carpetas y a la larga se convirti&oacute; en mi fuerte.", "content":[""]},
+    {"title":"Te ayudo a:","sub-title":"", "content":["<li>Libros<li>Tarjetas<li>Presentaciones<li>Redacciones"]},
+    {"title":"Yo quiero","sub-title":"", "content":["<li>Cosas<li>Archivos<li>Trabajos"]},
+    ];
+var cont_card_skill = [
+    { "title": "HTML", "img_src": "assets/img/icons8html5.svg", "Sub-title": "P&aacute;ginas Web", "Content": "Contenido", "Color1": "orangered", "Color2": "crimson" },
+    { "title": "CSS", "img_src": "assets/img/icons8css3.svg", "Sub-title": "Estilos para HTML", "Content": "Contenido", "Color1": "darkturquoise", "Color2": "darkblue" },
+    { "title": "JS", "img_src": "assets/img/icons8js5.svg", "Sub-title": "Din&aacute;micas para HTML", "Content": "Contenido", "Color1": "orange", "Color2": "orangered" },
+    { "title": "Microsoft Word", "img_src": "assets/img/icons8word.svg", "Sub-title": "Documentos", "Content": "Contenido", "Color1": "darkblue", "Color2": "black" },
+    { "title": "Microsoft Power Point", "img_src": "assets/img/icons8powerpoint.svg", "Sub-title": "Presentaciones", "Content": "Contenido", "Color1": "orangered", "Color2": "darkred" },
+    { "title": "Microsoft Excel", "img_src": "assets/img/icons8excel.svg", "Sub-title": "Hojas de C&aacute;lculo", "Content": "Contenido", "Color1": "green", "Color2": "black" },
+    { "title": "Photoshop", "img_src": "assets/img/icons8photoshop.svg", "Sub-title": "Diseño Gr&aacute;fico", "Content": "Contenido", "Color1": "rgb(0, 54, 136)", "Color2": "black" },
+    { "title": "Wondershare Filmora X", "img_src": "assets/img/icons8filmora.svg", "Sub-title": "Edici&oacute;n y Producci&oacute;n de Video", "Content": "Contenido", "Color1": "darkcyan,darkblue", "Color2": "black" },
+    { "title": "Audacity", "img_src": "assets/img/Audacity_logo.svg", "Sub-title": "Edici&oacute;n y Producci&oacute;n de Audio", "Content": "Contenido", "Color1": "red,blue", "Color2": "black" },
+];
+
+for(var i in cont_card_skill){
+document.write(`<div data-aos="zoom-in" data-aos-delay="${Math.floor(i*100)}" class="p-2"><div class="flip-card"><div class="flip-card-inner"><div class="flip-card-front"><div class="boton-gir" style="background: linear-gradient(to bottom,${cont_card_skill[i]["Color1"]}, ${cont_card_skill[i]["Color2"]});"><img style="width:15px;transform:rotateX(180deg)" class="img-fluid" src="assets/img/arrow.png" alt="•"></div><span class="flip-card-header" style="background: linear-gradient(to bottom,${cont_card_skill[i]["Color1"]}, ${cont_card_skill[i]["Color2"]});">${cont_card_skill[i]["title"]}</span><img style="width:100px;align-self:center;" class="img-fluid" src="${cont_card_skill[i]["img_src"]}"></div><div class="flip-card-back" style="background: linear-gradient(to bottom,${cont_card_skill[i]["Color1"]}, ${cont_card_skill[i]["Color2"]});"><span class="flip-card-header" style="background: linear-gradient(to top,${cont_card_skill[i]["Color1"]}, ${cont_card_skill[i]["Color2"]});">${cont_card_skill[i]["title"]}</span><div class="boton-gir"><img style="width:15px;rotate:180deg" class="img-fluid" src="assets/img/arrow.png" alt="•"></div><h4>${cont_card_skill[i]["Sub-title"]}</h4><p>${cont_card_skill[i]["Content"]}</p></div></div></div></div>`);}
+</script>
+</div></div>
+
+</div>
+
+    
+<!--End: Flip Cards-->
+    <!-- Start: Lightbox Gallery -->
+    <div class="photo-gallery">
+        <div class="container">
+            <!-- Start: Intro -->
+            <div class="intro"><h2 class="text-center">Lightbox Gallery</h2><p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+            </div>
+            <!-- End: Intro -->
+            <!-- Start: Photos -->
+            <div class="row photos"><div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/desk.jpg"><img class="img-fluid" src="assets/img/desk.jpg"></a></div><div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/building.jpg"><img class="img-fluid" src="assets/img/building.jpg"></a></div><div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/loft.jpg"><img class="img-fluid" src="assets/img/loft.jpg"></a></div><div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/building.jpg"><img class="img-fluid" src="assets/img/building.jpg"></a></div><div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/loft.jpg"><img class="img-fluid" src="assets/img/loft.jpg"></a></div><div class="col-sm-6 col-md-4 col-lg-3 item"><a data-lightbox="photos" href="assets/img/desk.jpg"><img class="img-fluid" src="assets/img/desk.jpg"></a></div></div>
+            <!-- End: Photos -->
+        </div></div><!-- End: Lightbox Gallery --><!-- Start: Projects Clean --><div class="projects-clean">
+        <div class="container">
+            <!-- Start: Intro -->
+            <div class="intro"><h2 class="text-center">Projects </h2><p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p></div>
+            <!-- End: Intro -->
+            <!-- Start: Projects -->
+            <div class="row projects"><div class="col item"><img class="img-fluid" src="assets/img/desk.jpg"><h3 class="name">Project Name</h3><p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p></div><div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/building.jpg"><h3 class="name">Project Name</h3><p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p></div><div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/loft.jpg"><h3 class="name">Project Name</h3><p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p></div><div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/minibus.jpeg"><h3 class="name">Project Name</h3><p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p></div></div>
+            <!-- End: Projects -->
+        </div></div>
+    <!-- End: Projects Clean --><script src="assets/js/jquery.min.js"></script><script src="assets/bootstrap/js/bootstrap.min.js"></script><script src="assets/js/aos.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script><script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
